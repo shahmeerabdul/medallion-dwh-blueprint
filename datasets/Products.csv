@@ -1,0 +1,16 @@
+ProductID,Product,Category,Price
+1,Laptop Pro 15,Electronics,1299.99
+2,Wireless Mouse,Electronics,29.99
+3,Ergonomic Chair,Furniture,449.99
+4,Standing Desk,Furniture,799.99
+5,Python Programming,Book,49.99
+6,Data Science Handbook,Book,59.99
+7,Coffee Maker,Appliance,89.99
+8,Noise Canceling Headphones,Electronics,349.99
+9,Office Lamp,Furniture,79.99
+10,SQL Mastery,Book,44.99
+11,Tablet Mini,Electronics,499.99
+12,Water Dispenser,Appliance,129.99
+13,Keyboard Mechanical,Electronics,159.99
+14,Monitor 27inch,Electronics,399.99
+15,Bookshelf,Furniture,199.99
