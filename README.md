@@ -96,7 +96,7 @@ All columns stored as `VARCHAR` to preserve source fidelity. No cleansing applie
 
 Run scripts in this exact sequence from a MySQL client (`mysql`, MySQL Workbench, DBeaver, etc.):
 
-### Step 1 — DDL (create schema)
+### Step 1 : DDL (create schema)
 
 ```bash
 mysql -u root -p < sql/01_ddl/00_create_database.sql
@@ -105,7 +105,7 @@ mysql -u root -p < sql/01_ddl/02_silver_ddl.sql
 mysql -u root -p < sql/01_ddl/03_gold_ddl.sql
 ```
 
-### Step 2 — ETL (load and transform data)
+### Step 2 : ETL (load and transform data)
 
 ```bash
 # Option A: INSERT-based load (recommended — no FILE privilege needed)
@@ -119,7 +119,7 @@ mysql -u root -p < sql/02_etl/02_silver_etl.sql
 mysql -u root -p < sql/02_etl/03_gold_etl.sql
 ```
 
-### Step 3 — EDA (exploratory analysis)
+### Step 3 : EDA (exploratory analysis)
 
 ```bash
 mysql -u root -p < sql/03_eda/01_date_exploration.sql
@@ -127,7 +127,7 @@ mysql -u root -p < sql/03_eda/02_measures_exploration.sql
 mysql -u root -p < sql/03_eda/03_magnitude_analysis.sql
 ```
 
-### Step 4 — Advanced Analytics (business reporting)
+### Step 4 : Advanced Analytics (business reporting)
 
 ```bash
 mysql -u root -p < sql/04_advanced_analytics/01_sales_trends.sql
