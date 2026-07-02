@@ -207,4 +207,4 @@ streamlit run app.py
 - **Live mode:** connects to MySQL Gold layer after running the ETL pipeline
 - **Demo mode:** auto-falls back to CSV datasets if MySQL is unavailable
 
-See `dashboard/README.md` for details.
+See `dashboard/README.md` for details.                                                                                                                                                    Link to see : https://medallion-dwh-blueprint-x4e9mrrugstksyyczw7ikt.streamlit.app/
