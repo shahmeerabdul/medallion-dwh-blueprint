@@ -70,13 +70,6 @@ def fmt_currency(value: float) -> str:
 st.sidebar.title("Medallion DW")
 st.sidebar.caption("Gold Layer Analytics")
 
-source = dl.get_data_source_label()
-if dl.is_live_db():
-    st.sidebar.success(f"Connected: {source}")
-else:
-    st.sidebar.warning(f"Demo mode: {source}")
-    st.sidebar.info("Set DB credentials in `.env` or run the SQL ETL pipeline to use live MySQL.")
-
 page = st.sidebar.radio(
     "Navigation",
     ["Overview", "Trends", "Sales Team", "Customers", "Products"],
