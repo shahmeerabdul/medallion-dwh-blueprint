@@ -38,6 +38,19 @@ st.markdown(
         border-radius: 10px;
         border: 1px solid #334155;
     }
+    div[data-testid="stMetric"] label,
+    div[data-testid="stMetric"] label p,
+    div[data-testid="stMetricLabel"] {
+        color: #cbd5e1 !important;
+    }
+    div[data-testid="stMetric"] [data-testid="stMetricValue"],
+    div[data-testid="stMetric"] [data-testid="stMetricValue"] > div,
+    div[data-testid="stMetricValue"] {
+        color: #ffffff !important;
+    }
+    div[data-testid="stMetric"] [data-testid="stMetricDelta"] {
+        color: #94a3b8 !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
