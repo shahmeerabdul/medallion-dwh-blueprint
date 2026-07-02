@@ -1,4 +1,4 @@
-# Medallion Data Warehouse — SQL Analytics Project
+# Medallion Data Warehouse : SQL Analytics Project
 
 An end-to-end SQL Data Warehousing and Analytics project implementing the **Medallion Architecture** (Bronze → Silver → Gold) with strict **Separation of Concerns (SOC)**:
 
