@@ -10,7 +10,7 @@ An end-to-end SQL Data Warehousing and Analytics project implementing the **Meda
 | `sql/03_eda/` | Exploratory analysis (read-only, Gold layer) |
 | `sql/04_advanced_analytics/` | Business reporting (read-only, Gold layer) |
 
----
+---   
 
 ## Project Structure
 
