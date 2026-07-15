@@ -3,7 +3,7 @@
 An end-to-end SQL Data Warehousing and Analytics project implementing the **Medallion Architecture** (Bronze → Silver → Gold) with strict **Separation of Concerns (SOC)**:
 
 | Layer / Folder | Responsibility |
-|---|---|
+|---|---|   
 | `datasets/` | Raw source CSV files |
 | `sql/01_ddl/` | Table definitions only (no data logic) |
 | `sql/02_etl/` | Data loading and transformation only |
